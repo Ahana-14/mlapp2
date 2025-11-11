@@ -1,0 +1,175 @@
+.logs-page {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+}
+
+.logs-content {
+  padding: 2rem;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.logs-card {
+  background: white;
+  border-radius: 16px;
+  padding: 2rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.logs-card h2 {
+  color: #333;
+  margin-bottom: 2rem;
+  font-size: 1.5rem;
+}
+
+.log-form {
+  margin-bottom: 1.5rem;
+}
+
+.form-row {
+  display: grid;
+  grid-template-columns: 2fr 1.5fr 1.5fr auto;
+  gap: 1rem;
+  align-items: end;
+}
+
+.input-group {
+  display: flex;
+  flex-direction: column;
+}
+
+.input-group label {
+  margin-bottom: 0.5rem;
+  color: #333;
+  font-weight: 500;
+  font-size: 0.9rem;
+}
+
+.input-wrapper {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.calendar-icon {
+  position: absolute;
+  right: 1rem;
+  font-size: 1.2rem;
+  pointer-events: none;
+}
+
+.input-group.date-input .input-wrapper input {
+  border-color: #b794f6;
+}
+
+.input-group.duration-input input {
+  border-color: #f5576c;
+}
+
+.input-group.category-input select {
+  border-color: #f5576c;
+}
+
+.input-group input,
+.input-group select {
+  padding: 0.75rem;
+  border: 2px solid #e0e0e0;
+  border-radius: 8px;
+  font-size: 1rem;
+  transition: border-color 0.3s;
+}
+
+.input-group input:focus,
+.input-group select:focus {
+  outline: none;
+  border-color: #667eea;
+}
+
+.btn {
+  padding: 0.75rem 1.5rem;
+  border: none;
+  border-radius: 8px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.3s;
+  white-space: nowrap;
+}
+
+.btn-primary {
+  background: linear-gradient(135deg, #667eea 0%, #f5576c 100%);
+  color: white;
+}
+
+.btn-blue {
+  background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);
+  color: white;
+}
+
+.btn-green {
+  background: linear-gradient(135deg, #11998e 0%, #38ef7d 100%);
+  color: white;
+}
+
+.btn-orange {
+  background: linear-gradient(135deg, #f5576c 0%, #f093fb 100%);
+  color: white;
+}
+
+.btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.action-buttons {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+  flex-wrap: wrap;
+}
+
+.logs-list {
+  margin-top: 2rem;
+}
+
+.log-entry {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  margin-bottom: 0.75rem;
+  border: 2px solid #b794f6;
+  border-radius: 12px;
+  background: white;
+}
+
+.log-info {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  flex: 1;
+}
+
+.log-date {
+  font-weight: 500;
+  color: #333;
+}
+
+.log-duration {
+  color: #666;
+  font-weight: 500;
+}
+
+.log-category {
+  padding: 0.25rem 0.75rem;
+  border-radius: 20px;
+  font-size: 0.85rem;
+  font-weight: 500;
+}
+
+.no-logs {
+  text-align: center;
+  padding: 3rem;
+  color: #666;
+}
+
+

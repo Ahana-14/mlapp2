@@ -1,0 +1,127 @@
+.forecast-page {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+}
+
+.forecast-content {
+  padding: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.forecast-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2rem;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.forecast-info {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+  color: #333;
+  font-weight: 500;
+}
+
+.total-weekly {
+  background: linear-gradient(135deg, #667eea 0%, #f5576c 100%);
+  color: white;
+  padding: 0.5rem 1rem;
+  border-radius: 8px;
+  font-weight: 600;
+}
+
+.forecast-card {
+  background: white;
+  border-radius: 16px;
+  padding: 2rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.forecast-card h2 {
+  color: #333;
+  margin-bottom: 1.5rem;
+  font-size: 1.5rem;
+}
+
+.chart-container {
+  margin-bottom: 2rem;
+}
+
+.legend {
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+  margin-bottom: 2rem;
+  padding-top: 1rem;
+  border-top: 1px solid #e0e0e0;
+}
+
+.legend-item {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.legend-color {
+  width: 20px;
+  height: 20px;
+  border-radius: 4px;
+}
+
+.legend-color.high {
+  background: #667eea;
+}
+
+.legend-color.low {
+  background: #b794f6;
+}
+
+.forecast-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 1rem;
+  margin-top: 2rem;
+}
+
+.forecast-item {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  border: 2px solid #e0e0e0;
+  border-radius: 12px;
+  background: white;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.forecast-date {
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 0.5rem;
+  font-size: 1rem;
+}
+
+.forecast-hours {
+  color: #666;
+  font-size: 0.9rem;
+}
+
+.forecast-hours strong {
+  color: #667eea;
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+
+.no-forecast {
+  text-align: center;
+  padding: 3rem;
+  background: white;
+  border-radius: 16px;
+  color: #666;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+

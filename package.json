@@ -1,0 +1,12 @@
+{
+  "name": "mlapp-root",
+  "version": "1.0.0",
+  "description": "Root directory - navigate to mlapp/mlapp/ to run the application",
+  "scripts": {
+    "dev": "echo Please navigate to mlapp/mlapp/ directory and run: npm run dev",
+    "help": "echo The project is located in: mlapp/mlapp/ directory. Navigate there first."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

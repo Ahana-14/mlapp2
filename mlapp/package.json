@@ -1,0 +1,23 @@
+{
+  "name": "coding-hours-forecaster",
+  "version": "1.0.0",
+  "description": "Coding Hours Forecaster for SNU Hackathons",
+  "main": "server/index.js",
+  "scripts": {
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "start": "npm run dev",
+    "server": "cd server && node index.js",
+    "client": "cd client && npm start",
+    "build": "cd client && npm run build",
+    "install-all": "npm install && cd server && npm install && cd ../client && npm install",
+    "install-all:win": "npm install & cd server & npm install & cd ..\\client & npm install & cd .."
+  },
+  "keywords": ["hackathon", "coding-hours", "forecast"],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}
+
+
